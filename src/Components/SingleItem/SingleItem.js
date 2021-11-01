@@ -80,14 +80,11 @@ const SingleItem = () => {
                             <hr />
                         </div>
 
-                        <div className="input-form mx-auto p-2 shadow">
-                            {/* <input type="text" className="form-control" placeholder="Your Name" aria-label="Username" aria-describedby="basic-addon1" /> <br />
-                            <input type="text" className="form-control" placeholder="Your Address" aria-label="Username" aria-describedby="basic-addon1" />
-                            <input className="mt-4 fw-bold btn-style" type="submit" value="Book Now" /> */}
-                            <input type="text" ref={nameRef} placeholder="Your Name" name="" id="" /> <br />
-                            <input type="text" ref={addressRef} placeholder="Your Address" name="" id="" /> <br />
-                            <input type="text" ref={contactRef} placeholder="Your Phone" name="" id="" /> <br />
-                            <input type="submit" value="Submit" />
+                        <div className="input-form mx-auto w-100 p-2 shadow-lg">
+                            <input className="w-100 my-2 rounder shadow" type="text" ref={nameRef} placeholder="Your Name" name="" id="" /> <br />
+                            <input className="w-100 my-2 rounder shadow" type="text" ref={addressRef} placeholder="Your Address" name="" id="" /> <br />
+                            <input className="w-100 my-2 rounder shadow" type="text" ref={contactRef} placeholder="Your Phone" name="" id="" /> <br />
+                            <input className="my-2 btn-style" type="submit" value="Submit" />
                         </div>
                     </form>
                 </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Badge, Stack, Table } from "react-bootstrap";
 import useAuth from "../Hooks/UseAuth";
-
+import './MyOrders.css';
 
 
 function MyOrders() {
@@ -36,15 +36,14 @@ function MyOrders() {
     const handleUpdate = (id) => {
         const updateItem = orders.filter(item => item._id === id);
         // updateItem.status = 'Approved';
+        console.log(updateItem);
     };
 
     console.log(orderData);
     return (
-        <div className="p-2 mx-auto">
-            <h1 className="fs-1 text-center mb-3">My Orders</h1>
-
+        <div className="my-orders py-4">
             <div className="table">
-
+                <h2 className="fs-1 text-center mb-3">My Orders</h2>
                 <Table striped bordered hover variant="dark">
                     <thead>
                         <tr>

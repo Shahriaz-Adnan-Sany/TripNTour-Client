@@ -51,16 +51,18 @@ const AddService = () => {
 
     }
     return (
-        <div className="Add-service p-4">
-            <h2>Add A New Service</h2>
-            <form onSubmit={handleAddService}>
-                <input type="text" ref={titleRef} placeholder="Title" name="" id="" /> <br />
-                <input type="text" ref={descriptionRef} placeholder="Description" name="" id="" /> <br />
-                <input type="text" ref={durationRef} placeholder="Duration" name="" id="" /> <br />
-                <input type="text" ref={costRef} placeholder="Cost" name="" id="" /> <br />
-                <input type="text" ref={imageRef} placeholder="Image Url" name="" id="" /> <br />
-                <input type="submit" value="Submit" />
-            </form>
+        <div className="add-service p-4">
+            <div className="Add-service w-50 mx-auto shadow border-3 p-4">
+                <h2 className="text-light">Add A New Service</h2>
+                <form onSubmit={handleAddService}>
+                    <input className="w-75 mx-auto my-2 rounded" type="text" ref={titleRef} placeholder="Title" name="" id="" /> <br />
+                    <input className="w-75 mx-auto my-2 rounded" type="text" ref={descriptionRef} placeholder="Description" name="" id="" /> <br />
+                    <input className="w-75 mx-auto my-2 rounded" type="text" ref={durationRef} placeholder="Duration" name="" id="" /> <br />
+                    <input className="w-75 mx-auto my-2 rounded" type="text" ref={costRef} placeholder="Cost" name="" id="" /> <br />
+                    <input className="w-75 mx-auto my-2 rounded" type="text" ref={imageRef} placeholder="Image Url" name="" id="" /> <br />
+                    <input className="btn-style fw-bold" type="submit" value="Submit" />
+                </form>
+            </div>
         </div>
     );
 };
