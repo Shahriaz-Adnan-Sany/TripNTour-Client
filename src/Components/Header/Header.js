@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 import useAuth from '../Hooks/UseAuth';
 import logo from '../logo/logo.jpg';
 
-/* import useFirebase from '../Hooks/FirebaseHook'; */
+/*   */
 import './Header.css';
 const Header = () => {
-    /*  const { user, logOut } = useFirebase(); */
+    /*     const { user, logOut } = useFirebase(); */
     const { user, logOut } = useAuth();
     return (
         <div className="header py-2">
@@ -23,10 +23,10 @@ const Header = () => {
                             <Link className="fw-bold btn-style me-1" to="/Features">Features</Link>
                             <Link className="fw-bold btn-style me-1" to="/Services">Services</Link>
                             <Link className="fw-bold btn-style me-1" to="/Exclusive">Exclusive</Link>
-                            <Link className="fw-bold btn-style me-1" to="/Order">Order</Link>
+                            <Link className="fw-bold btn-style" to="/Order">Order</Link>
                         </Nav>
 
-                        <div className="col-sm-12 col-md-6 d-flex justify-content-end">
+                        <div className="col-sm-12 col-md-6 d-flex mx-auto">
                             <Form className="">
                                 {user?.email ? (
                                     <>

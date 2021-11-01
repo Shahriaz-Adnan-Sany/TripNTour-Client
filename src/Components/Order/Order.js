@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Table } from "react-bootstrap";
 
-
 function Orders() {
     const [orders, setOrder] = useState([]);
 
