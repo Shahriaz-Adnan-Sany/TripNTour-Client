@@ -10,6 +10,7 @@ const LogIn = () => {
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/home';
+
     const handleGoogleLogin = () => {
         signInUsingGoogle()
             .then(result => {
