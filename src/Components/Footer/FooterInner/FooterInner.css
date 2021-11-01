@@ -1,0 +1,38 @@
+.footer-inner {
+    background-color: black;
+}
+.fotter-img {
+    width: 180px;
+    height: 150px;
+}
+.social-icons a {
+    color: black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .8s;
+}
+.social-icons a:hover {
+    color: white;
+    background-color: tomato;
+    transition: .8s;
+}
+.social-icons a i {
+    width: 25px;
+    height: 25px;
+}
+.footer-btn {
+    padding: 8px 12px;
+    margin: 0px 3px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .8s;
+}
+.footer-btn:hover {
+    color: white;
+    background-color: tomato;
+    transition: .8s;
+}

@@ -1,0 +1,18 @@
+.exclusive {
+    background-color: #f1f4f8;
+}
+.exclusive-button {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+.exclusive-button:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid black;
+}

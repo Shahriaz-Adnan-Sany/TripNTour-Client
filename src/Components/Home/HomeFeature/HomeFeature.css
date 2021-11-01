@@ -1,0 +1,21 @@
+.home-feature {
+    background-color:lightblue;
+}
+.heading-color {
+    color: tomato;
+}
+.btn-style {
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid tomato;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .8s;
+}
+.btn-style:hover {
+    color: white;
+    background-color: tomato;
+    transition: .8s;
+}

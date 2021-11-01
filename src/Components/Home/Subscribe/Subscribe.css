@@ -1,0 +1,13 @@
+.subscribe-info {
+    background-color: #f1f5f8;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.sub-box li {
+    list-style: none;
+    text-align: left;
+}
+.sub-box li i {
+    font-size: 25px;
+    margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+.google-signIn {
+    height: 400px;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: .9;
+}
+.google-txt {
+  background: transparent;
+  position: relative;
+  animation-name: google-text;
+  animation-duration: 3s;
+  left: 50% auto;
+  animation-fill-mode: forwards;
+}
+@keyframes google-text {
+    from {bottom: 0px;}
+    to {bottom: 200px;}
+  }
