@@ -18,16 +18,15 @@ const Header = () => {
                     </div>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
-                        <Nav className="col-sm-12 col-md-4 d-flex justify-content-center">
-                            <Link className="fw-bold btn-style mx-1" to="/Home">Home</Link>
-                            <Link className="fw-bold btn-style mx-1" to="/Features">Features</Link>
-                            <Link className="fw-bold btn-style mx-1" to="/Services">Services</Link>
-                            <Link className="fw-bold btn-style mx-1" to="/Exclusive">Exclusive</Link>
-                            <Link className="fw-bold btn-style mx-1" to="/Order">Order</Link>
+                        <Nav className="col-sm-12 col-md-4 d-flex justify-content-start">
+                            <Link className="fw-bold btn-style me-1" to="/Home">Home</Link>
+                            <Link className="fw-bold btn-style me-1" to="/Features">Features</Link>
+                            <Link className="fw-bold btn-style me-1" to="/Services">Services</Link>
+                            <Link className="fw-bold btn-style me-1" to="/Exclusive">Exclusive</Link>
+                            <Link className="fw-bold btn-style me-1" to="/Order">Order</Link>
                         </Nav>
 
                         <div className="col-sm-12 col-md-6 d-flex justify-content-end">
-
                             <Form className="">
                                 {user?.email ? (
                                     <>

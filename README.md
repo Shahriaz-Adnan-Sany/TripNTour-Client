@@ -1,3 +1,16 @@
+# TrinpNTou
+`A Project based on node js and react js. This Project Is Based On Tourism`
+
+* This Project Is Totally based on REact and Node JS
+* You Can Easily Sign IN By Google Sign In Method. 
+* All Data Are Loaded From Private Server That Build By Node JS.
+* Client Site Is Build By React JS and Deployed In Firerbase.
+* Client Server Is Deployed in Heroku. 
+
+Author (`Shahriaze Adnan Sany`)
+
+* Live Server Link: https://tripntour-97f5d.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
