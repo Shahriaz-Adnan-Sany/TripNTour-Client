@@ -4,7 +4,7 @@ import { useState } from "react"
 const useItems = () => {
     const [items, setItems] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://whispering-brook-98977.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setItems(data));
 

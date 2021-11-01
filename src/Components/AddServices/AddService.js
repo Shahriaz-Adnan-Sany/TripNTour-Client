@@ -19,7 +19,7 @@ const AddService = () => {
         const newService = { title, description, cost, duration, img };
         console.log(newService)
 
-        // fetch('http://localhost:5000/services', {
+        // fetch('https://whispering-brook-98977.herokuapp.com/services', {
         //     method: 'POST',
         //     headers: {
         //         'content-type': 'application/json',
@@ -35,7 +35,7 @@ const AddService = () => {
         //         }
         //     })
 
-        fetch('http://localhost:5000/services', {
+        fetch('https://whispering-brook-98977.herokuapp.com/services', {
             method: 'POST',
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify(newService)

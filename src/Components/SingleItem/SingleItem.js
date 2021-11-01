@@ -11,7 +11,7 @@ const SingleItem = () => {
     const history = useHistory();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/services`)
+        fetch(`https://whispering-brook-98977.herokuapp.com/services`)
             .then(res => res.json())
             .then(data => setData(data))
     }, []);
@@ -37,7 +37,7 @@ const SingleItem = () => {
         const newOrder = { name, address, contact, email, price, packageName, status };
         console.log(newOrder)
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://whispering-brook-98977.herokuapp.com/orders', {
             method: 'POST',
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify(newOrder)
