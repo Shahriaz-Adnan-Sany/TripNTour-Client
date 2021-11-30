@@ -1,14 +1,16 @@
 .single-item {
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     color: black;
-    border: 1px solid #bb2d3b;
     transition: .5s;
+    border: 10px solid #f9f5f5;
+    font-weight: lighter;
 }
 .single-item:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     transition: .5s;
+    border: 1px solid #f9f5f5
 }
 .item-cart-img {
    max-width: 350px;

@@ -1,7 +1,5 @@
 .subscribe-info {
-    background-color: #f1f5f8;
-    border: 1px solid gray;
-    border-radius: 25px;
+    border-radius: 3px;
 }
 .sub-box li {
     list-style: none;
@@ -10,4 +8,5 @@
 .sub-box li i {
     font-size: 25px;
     margin-right: 10px;
+    margin-top: 5px;
 }

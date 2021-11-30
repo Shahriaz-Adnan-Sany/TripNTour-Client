@@ -12,21 +12,21 @@ const Subscribe = () => {
                 </div>
                 <div className="row mx-auto px-4">
                     <div className="sub-box col-md-6 col-sm-12">
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">More than one million trips with no nightly rates, taxes, or fees.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">Hold multiple Pass reservations at the same time.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">When you can't travel, use your Pass for lifestyle merchandise and local experiences.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">Flexible cancellation policy if your plans change.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">More than one million trips with no nightly rates, taxes, or fees.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">Hold multiple Pass reservations at the same time.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">When you can't travel, use your Pass for lifestyle merchandise and local experiences.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">Flexible cancellation policy if your plans change.</span></li>
                     </div>
                     <div className="sub-box col-md-6 col-sm-12">
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">Includes Club subscription at preferred pricing with additional booking access and benefits.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">First-class personalized Inspirato service on every trip.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">Sharing plans available to let your family and friends take trips of their own.</span></li>
-                        <li className="d-flex align-items-center mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-bold">No long-term commitment; cancel your subscription at any time.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">Includes Club subscription at preferred pricing with additional booking access and benefits.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">First-class personalized Inspirato service on every trip.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">Sharing plans available to let your family and friends take trips of their own.</span></li>
+                        <li className="d-flex mb-2"><i className="fas fa-hand-point-right"></i><span className="text-secondary fs-5 fw-light">No long-term commitment; cancel your subscription at any time.</span></li>
                     </div>
                 </div>
                 <hr />
                 <div className="subcribe-button my-2 mx-auto">
-                    <Link className="fw-bold btn-style mx-2" to="/LogIn">Subscribe To TripNTour</Link>
+                    <Link className="btn btn-danger rounded-0 mx-2" to="/LogIn">Subscribe To TripNTour</Link>
                 </div>
             </div>
         </div>

@@ -22,16 +22,16 @@ const FooterInner = () => {
             <div className="text-light my-2 col-md-4 col-sm-12 d-flex align-items-center">
                 <div className="contact-ifo mx-auto">
                     <h4>Contact Us</h4>
-                    <div className="phone">
-                        <span className="m-2"><i className="fas fa-phone-square"></i></span>
+                    <div className="contact phone">
+                        <span className=""><i className="fas fa-phone-square"></i></span>
                         <span className="m-2">+880 017 ** *** ***</span>
                     </div>
-                    <div className="email">
-                        <span className="m-2"><i className="fas fa-envelope-square"></i></span>
+                    <div className="contact email">
+                        <span className=""><i className="fas fa-envelope-square"></i></span>
                         <span className="m-2">tripNtour@gmail.com</span>
                     </div>
-                    <div className="address">
-                        <span className="m-2"><i className="fas fa-map-marker-alt"></i></span>
+                    <div className="contact address">
+                        <span className=""><i className="fas fa-map-marker-alt"></i></span>
                         <span className="m-2">Chittagong, bangladesh</span>
                     </div>
                 </div>

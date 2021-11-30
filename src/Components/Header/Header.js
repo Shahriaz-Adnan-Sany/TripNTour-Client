@@ -10,9 +10,9 @@ const Header = () => {
     /*     const { user, logOut } = useFirebase(); */
     const { user, logOut } = useAuth();
     return (
-        <div className="header mx-auto py-2">
+        <div className="header shadow  mx-auto py-2">
             <Container fluid>
-                <Navbar collapseOnSelect expand="lg" className="my-2 mx-auto">
+                <Navbar collapseOnSelect sticky="top" expand="lg" className="my-2 mx-auto">
                     <div className="mx-auto heading-img">
                         <img className="img-fluid" src={logo} alt="" />
                     </div>
