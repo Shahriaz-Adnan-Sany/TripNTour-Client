@@ -6,7 +6,7 @@ const HomeItems = (props) => {
     const item = items.slice(0, 6);
 
     return (
-        <div className="course-preview my-4 row">
+        <div className="container-fluid course-preview mx-auto my-4 row">
             <h3 className="my-2">Here Are Some Services Preview</h3>
 
             {
